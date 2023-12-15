@@ -6,7 +6,7 @@ function startConfetti() {
   particlesJS("confetti-container", {
       particles: {
           number: {
-              value: 150,  // Puedes ajustar este valor para tener más confeti
+              value: 200,  
           },
           color: {
               value: ["#3498db", "#2ecc71", "#e67e22", "#9b59b6", "#f39c12", "#1abc9c"],
