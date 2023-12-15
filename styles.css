@@ -1,7 +1,11 @@
 body {
   margin: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #confetti-container {
@@ -15,10 +19,16 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 
 h1 {
-  font-size: 5em;
+  font-size: 5vw;
   text-align: center;
   font: bold 7.5vw/1.6 'Signika', sans-serif;
   user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+      font-size: 8vw;
+  }
 }
 
 h1 span {
